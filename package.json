@@ -1,0 +1,29 @@
+{
+  "name": "glsl-fractal-brownian-noise",
+  "version": "0.0.0",
+  "description": "fractal brownian noise, glslify compatible",
+  "main": "fbm.glsl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxBittker/glsl-fractal-brownian-noise.git"
+  },
+  "keywords": [
+    "glsl",
+    "glslify",
+    "webgl",
+    "noise",
+    "stack.gl",
+    "regl",
+    "stackgl",
+    "shader"
+  ],
+  "author": "maxbittker <maxbittker@gmail.com> (maxbittker.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxBittker/glsl-fractal-brownian-noise/issues"
+  },
+  "homepage": "https://github.com/MaxBittker/glsl-fractal-brownian-noise#readme"
+}
