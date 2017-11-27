@@ -1,6 +1,6 @@
 {
   "name": "glsl-fractal-brownian-noise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fractal brownian noise, glslify compatible",
   "main": "fbm.glsl",
   "scripts": {
