@@ -1,6 +1,6 @@
 {
   "name": "glsl-fractal-brownian-noise",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "fractal brownian noise, glslify compatible",
   "main": "fbm.glsl",
   "scripts": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/MaxBittker/glsl-fractal-brownian-noise/issues"
   },
-  "homepage": "https://github.com/MaxBittker/glsl-fractal-brownian-noise#readme"
+  "homepage": "https://github.com/MaxBittker/glsl-fractal-brownian-noise#readme",
+  "dependencies": {
+    "glsl-noise": "0.0.0"
+  }
 }
