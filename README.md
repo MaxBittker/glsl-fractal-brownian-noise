@@ -1,16 +1,19 @@
 # glsl-fractal-brownian-noise
-brownian noise, usable with glslify
+brownian noise, packed for glslify
 
 usage: 
 ```glsl
-
 precision mediump float;
-#pragma glslify: fbm3d = require('glsl-fractal-brownian-noise/fbm3d');
+#pragma glslify: fbm3d = require('glsl-fractal-brownian-noise/3d')
+
+varying vec2 uv;
+uniform float t;
 
 void main() {
     gl_FragColor.rgb = vec3(1.0) * fbm3d(vec3(uv, t), 6);  
     gl_FragColor.a   = 1.0;
 }
 ```
-implementations borrowed from:
+
+implementations borrowed from shawn lawson:
 https://github.com/shawnlawson/The_Force/blob/gh-pages/shaders/header.frag#L259-L271
