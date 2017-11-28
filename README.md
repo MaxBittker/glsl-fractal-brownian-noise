@@ -17,5 +17,5 @@ void main() {
 }
 ```
 
-implementations borrowed from shawn lawson:
-https://github.com/shawnlawson/The_Force/blob/gh-pages/shaders/header.frag#L259-L271
+Implimentations adapted from:
+https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83
