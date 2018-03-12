@@ -1,6 +1,8 @@
 # glsl-fractal-brownian-noise
 brownian noise, packed for glslify
+
 `npm install glsl-fractal-brownian-noise`
+
 ![example output](https://i.imgur.com/PwHCo4w.png)
 
 usage: 
